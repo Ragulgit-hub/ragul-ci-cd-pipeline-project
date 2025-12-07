@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven-3'   // Must match the name in Global Tool Configuration
+        maven 'Maven'   // Must match the name in Global Tool Configuration
         // jdk 'JDK21'    // Uncomment if you configured a JDK tool
     }
 
